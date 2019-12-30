@@ -3,7 +3,7 @@
 veg1 = "broccoli"
 veg2 = "macaroni"
 # meat = ""
-# protein = "tofu"
+protein = "tofu"
 
 def meal_choice(meat = "protein",veg1, veg2)
   puts "What a nutritious meal!"
