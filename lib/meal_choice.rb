@@ -1,9 +1,14 @@
 # Your code here
-protein = "chicken"
+# protein = "tofu"
+veg1 = "broccoli"
+veg2 = "macaroni"
+protein = "tofu"
 
-def meal_choice(veg1 = "broccoli", veg2 = "macaroni", protein = "meat")
+def meal_choice(veg1, veg2, protein='meat')
   puts "What a nutritious meal!"
-  puts "A plate of #{protein} with #{veg1} and #{veg2}."
+  meal = "A plate of #{protein} with #{veg1} and #{veg2}."
+  puts meal
+  return meal
 end
 
-meal_choice
+# meal_choice
