@@ -2,6 +2,7 @@
 # protein = "tofu"
 veg1 = "broccoli"
 veg2 = "macaroni"
+meat = "tofu"
 # protein = "tofu"
 
 def meal_choice(meat = "protein",veg1, veg2)
